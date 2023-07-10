@@ -52,7 +52,6 @@ def edge_detect_can(imm):
 
 
 ## Main
-
 imm = Image.open('digital_images_week2_quizzes_lena.gif')
 ar = np.array(imm, dtype=np.float64)
 gmap, gx, gy = edge_detect_grad(ar,1)
